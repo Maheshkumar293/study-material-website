@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Materials Portal</title>
+    <link rel="stylesheet" href="style.css">
+<script src="scripts.js"></script>
+    </head>
+<body>
+    <header>
+        <h1>Study Materials Portal</h1>
+        <nav>
+            <a href="admin-login.html" class="admin-btn">Admin Login</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="materials-container">
+            <h2>Available Study Materials</h2>
+            <div id="materials-list">
+                <!-- Materials will be loaded here dynamically -->
+            </div>
+        </div>
+    </main>
+<script>
+        document.addEventListener('DOMContentLoaded', loadMaterials);
+    </script>
+    </body>
+</html>
